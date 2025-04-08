@@ -1,13 +1,16 @@
 import unittest
 
+from . import get_password
+
 
 class TestLinux(unittest.TestCase):
 
     def test_setter(self) -> None:
         """?"""
-
-        self.assertTrue(False)
+        pass
 
     def test_getter(self) -> None:
         """?"""
-        pass
+        got = get_password("lorem", "ipsum")
+        print(got)
+        self.assertTrue(False)

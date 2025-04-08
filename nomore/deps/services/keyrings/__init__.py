@@ -1,6 +1,7 @@
 import sys
 import typing as T
 
+from nomore.deps.services.keyrings.contracts import KeyringContract
 from nomore.deps.services.keyrings.linux import LinuxKeyring
 
 impl: KeyringContract | None = None
